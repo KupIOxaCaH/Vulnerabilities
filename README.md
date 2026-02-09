@@ -27,7 +27,45 @@
 
 #### Решение 1
 
+nmap показал множество открытых портов. Среди них такие:
 
+21/tcp – FTP
+
+22/tcp – SSH
+
+23/tcp - Telnet
+
+25/tcp – SMTP
+
+53/tcp,udp – DNS
+
+80/tcp – HTTP
+
+111/tcp,udp – RPC
+
+139/tcp, 445/tcp – SMB
+
+3306/tcp – MySQL
+
+5900/tcp – VNC
+
+8180/tcp – Apache Tomcat
+
+6667/tcp – IRC (UnrealIRCd)
+
+**Уязвимости**
+
+vsftpd 2.3.4 backdoor (FTP, порт 21)
+
+https://www.exploit-db.com/exploits/17491
+
+UnrealIRCd backdoor (IRC, порт 6667)
+
+https://www.exploit-db.com/exploits/16922
+
+Apache Tomcat Manager уязвимая сборка (порт 8180/tcp)
+
+https://www.exploit-db.com/exploits/31433
 
 ---
 
