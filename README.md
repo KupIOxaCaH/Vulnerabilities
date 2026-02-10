@@ -88,6 +88,8 @@ https://www.exploit-db.com/exploits/31433
 
 **SYN сканирование:**
 
+[syn_scan](https://github.com/KupIOxaCaH/Vulnerabilities/blob/main/materials/syn_scan.pcapng)
+
 Отправляет SYN пакет
 
 Открытый порт: получает SYN-ACK
@@ -95,6 +97,8 @@ https://www.exploit-db.com/exploits/31433
 Закрытый порт: получает RST
 
 **FIN сканирование:**
+
+[fin_scan](https://github.com/KupIOxaCaH/Vulnerabilities/blob/main/materials/fin_scan.pcapng)
 
 Отправляет пакет с флагом FIN
 
@@ -104,6 +108,8 @@ https://www.exploit-db.com/exploits/31433
 
 **Xmas сканирование:**
 
+[xmas_scan](https://github.com/KupIOxaCaH/Vulnerabilities/blob/main/materials/xmas_scan.pcapng)
+
 Отправляет пакет с FIN+PSH+URG
 
 Работает как FIN сканирование
@@ -111,6 +117,8 @@ https://www.exploit-db.com/exploits/31433
 Открытый: нет ответа, закрытый: RST
 
 **UDP сканирование:**
+
+[udp_scan](https://github.com/KupIOxaCaH/Vulnerabilities/blob/main/materials/udp_scan.pcapng)
 
 Отправляет UDP пакеты
 
